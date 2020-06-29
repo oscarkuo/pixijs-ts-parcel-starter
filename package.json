@@ -1,0 +1,19 @@
+{
+  "name": "pixijs-ts-parcel-starter",
+  "version": "1.0.0",
+  "description": "Starter project for PixiJs + Typescript + Parcel bundler",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "npx parcel index.html --open"
+  },
+  "author": "Oscar Kuo <oscarkuo@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pixi.js": "^5.3.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.4.3",
+    "typescript": "^3.9.5"
+  }
+}
